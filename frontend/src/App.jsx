@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingAnimation from './components/LandingAnimation';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Home from './pages/home';
 import AuthForm from './pages/AuthForm'; // Ensure you have an AuthForm component
 import Menu from './pages/Menu'; // Ensure you have a Menu component
 import Order from './pages/Order'; // Ensure you have an Order component
